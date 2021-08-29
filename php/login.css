@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width:100%;
+} 
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  }
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* Form */
+form{
+
+    height:650px;
+    width:90%;
+    background-color: darkslategrey;
+    border:5px BurlyWood;
+    border-style:solid;
+    border-collapse: collapse;
+    padding: 30px;
+    margin: 50px;
+    min-height: 100%;     
+    min-width: 320px;
+    max-width: 90%;
+    text-align: left;
+
+}
+
+.app-btn{
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 50px 50px;
+    margin-top: 6px;
+}
+
+.col {
+    float: left;
+    width: 100%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+}
+
+/* submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+background-color: #3B5998;
+color: white;
+}
+
+.twitter {
+background-color: #55ACEE;
+color: white;
+}
+
+.google {
+background-color: #dd4b39;
+color: white;
+}
+
+.sign-btn{
+  display:inline-block;
+  padding: 50px;
+  width: 25%;
+  text-align: right;
+}
+
+.forgot-psw{
+    display:inline-block;
+    font-size:17px;
+    padding: 100px;
+    margin:auto;
+    border: none;
+    width: 35%;
+    text-align: right;
+    
+}
+
+
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+.div {
+width: 100%;
+margin-top: 0;
+}
+
+.app-btn{
+  width: 100%;
+  margin-top: 0;
+  }
+
+.sign-btn{
+  width: 100%;
+  margin-top:-60px;
+  }
+
+.forgot-psw{
+  width: 100%;
+margin-top:0;
+}
+
+footer{
+    position : absolute;
+  }
+}

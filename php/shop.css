@@ -1,0 +1,73 @@
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* Page Body Styles */
+body{
+    min-width:640px;
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    clear: both;
+    }
+
+/* size of shop pic */
+article div {
+	float: central;
+	width: 72%;
+	margin: 5% 1% 0% 1%;
+}
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	margin: 0px auto;
+}
+
+ /* Image Styles */ 
+ img {
+    display:block;
+    width:80%;
+    }
+
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+/* Paragraph Styles */
+div.bigtitle{
+	font-size: 30pt;
+	text-align: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	clear: both;
+	position:relative;
+	animation: aboutUs 10s linear infinite;
+  }
+
+/* Footer Styles */
+section#information p{
+    text-align: left;
+    -webkit-order: 99;
+    order: 99;
+    }
+
+}
+  
+  @media print{
+    input[type='reset'], input[type='submit'],input[type='button'],div[id="divId"],footer[id="myfooter"],#hideMe {
+       display:none;
+    }
+
+    #titleId{
+        padding-top: 0;
+    }
+  }
+
+  .imgClass{
+      width:500px;
+      height:300px;
+  }

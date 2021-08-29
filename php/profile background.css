@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+.container{
+    width:100vw;
+    height:150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/background.jpg);
+    padding-left:8%;
+    padding-right:8%;
+    background-position:center;
+    background-size:cover;
+    box-sizing:border-box;
+}
+
+.navbar{
+    height:10%;
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    width:10%;
+    cursor:pointer;
+}
+
+.menu-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left:40px;
+}
+
+nav{
+    flex:1;
+    text-align:right;
+}
+ nav ul li{
+     list-style:none;
+     display:inline-block;
+     margin-left: 60px;
+ }
+
+ nav ul li a{
+     font-family:'Kumbh Sans', sans-serif;
+     text-decoration: none;
+     color:#fff;
+     font-size: 20px;
+ }
+ 
